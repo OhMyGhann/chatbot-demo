@@ -3,7 +3,7 @@ const axios = require('axios');
 const url = require('url');
 require('dotenv').config();  // Untuk load variabel dari .env
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Data uji lab palsu (bisa disimpan di file terpisah atau langsung di sini)
 const labResults = [

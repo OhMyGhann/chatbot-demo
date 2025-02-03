@@ -4,7 +4,8 @@ const axios = require('axios');
 const accessToken = 'Kl-jMC2CKiwnMGNT87JJxr0n6cokWtVuWDbnrpN05zE';
 
 // URL webhook yang akan menerima event dari Qontak
-const webhookUrl = 'https://your-webhook-endpoint.com/receive-webhook';  // Gantilah dengan URL valid kamu
+const webhookUrl = 'https://limitless-headland-71094-536c5761c0e1.herokuapp.com/webhook';
+
 
 // Data payload untuk mengaktifkan webhook
 const data = {

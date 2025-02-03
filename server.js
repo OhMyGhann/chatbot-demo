@@ -9,19 +9,19 @@ const PORT = process.env.PORT || 3000;
 const labResults = [
   {
     patientId: '12345',
-    name: 'John Doe',
+    name: 'Geo',
     test: 'Cholesterol',
     result: 'Normal',
     date: '2025-02-03',
-    phoneNumber: '6281234567890'  // Menambahkan nomor telepon
+    phoneNumber: '6281413544511'  // Menambahkan nomor telepon
   },
   {
     patientId: '67890',
-    name: 'Jane Smith',
+    name: 'Ghani',
     test: 'Blood Sugar',
     result: 'High',
     date: '2025-02-02',
-    phoneNumber: '6289876543210'  // Menambahkan nomor telepon
+    phoneNumber: '6285258971946'  // Menambahkan nomor telepon
   }
 ];
 
